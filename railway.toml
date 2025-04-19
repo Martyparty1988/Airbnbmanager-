@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+buildCommand = "echo 'Configuring multi-service project'"
+
+[deploy]
+startCommand = "echo 'This is a multi-service project. Please deploy individual services.'"
+healthcheckPath = "/"
+healthcheckTimeout = 100
